@@ -1,0 +1,269 @@
+﻿Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project description,Project url,Priority,Resolution,Assignee,Reporter,Creator,Created,Updated,Last Viewed,Resolved,Affects Version/s,Fix Version/s,Component/s,Due Date,Votes,Labels,Description,Environment,Watchers,Log Work,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Attachment,Attachment,Custom field ((backup) Browser/s),Custom field ((backup) Exists in the current implementation?),Custom field ((backup) External issue ID - old),Custom field ((backup) Integrator),Custom field ((backup) Issue Occurred On),Custom field ((backup) Issue Status Comment),Custom field ((backup) Platform),Custom field ((backup) Root of the problem),Custom field ((backup) Test Type),Custom field ((backup) Test case priority),Custom field ((backup) Type of Issue),Custom field ((backup) Work Type),"Custom field ((backup, del) Test tasks)","Custom field ((tmp, del) Build/s)","Custom field ((tmp, del?) TestCase Link)",Custom field (Account),Custom field (Actual Result),Custom field (Affected Test Cases),Custom field (Affects Build/s),Custom field (Asana link),Custom field (BT Jira ID),Custom field (BT Project),Custom field (Basecamp Link),Custom field (Billable Category),Custom field (Browser),Custom field (Browser / Environment),Custom field (Browser Version),Custom field (Build/s),Custom field (Business Unit),Custom field (CQ ID),Custom field (CS Project Coordinator),Custom field (Case Study necessity postpone date),Custom field (Client Device),Custom field (Client Device Version),Custom field (Cloud Version),Custom field (Core issue),Custom field (Created By),Custom field (Development),Custom field (End Date),Custom field (Epic Link),Custom field (Epic/Theme),Custom field (Error Type),Custom field (Expected Result),Custom field (Flagged),Custom field (Found by),Custom field (Functionality Changes?),Custom field (Handled By (SGW Tester)),Custom field (Hardware Version),Custom field (Impact),Custom field (Impacted Areas),Custom field (Importance),Custom field (Iteration),Custom field (Level),Custom field (New Original Estimate),Custom field (Next Step),Custom field (Number of candidates),Custom field (Occurrence),Custom field (Original story points),Custom field (Parent Link),Custom field (Partner Contact),Custom field (Payment Status),Custom field (Planned Efforts (FTE)),Custom field (Priority Level),Custom field (Proxy Required),Custom field (RFX Coordinator),Custom field (Rank),Custom field (Rank (Obsolete)),Custom field (Regional Coordinator),Custom field (Related Cases),Custom field (Reported Version),Custom field (Request Info From),Custom field (Revised),Custom field (Router),Custom field (SF Case No),Custom field (SGW Jira ID),Custom field (Severity/Importance),Custom field (Share with),Custom field (Solution),Sprint,Custom field (Start Date),Custom field (Supervisor),Custom field (TVS ID),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Team),Custom field (Team Role),Custom field (Test Type),Custom field (TestLink case),Custom field (Time Category),Custom field (To Attention Of),Custom field (Type of engagement),Custom field (URL),Custom field (Users),Custom field (Version To Fix),Custom field (Wiki Link),Custom field (Wires Link),Custom field (ZendeskID),Custom field (Обеспечение оборудованием),Comment
+"Greetings: ""Recording"" is still showing after reaching the time limit",QATC-994358,4000662,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,r.israil,r.israil,21/May/26 12:51 AM,21/May/26 12:51 AM,24/May/26 2:00 PM,,1.0,,Voicemail,,0,,"*Steps:*
+ # Open the Voicemail App
+ # Stay on the GREETINGS tab
+ # Click on the Create new greeting
+ # Click on the microphone button
+ # Start recording and wait for the time limit to reach
+ # Observed the behavior
+
+*Actual Result:*
+
+""Recording"" is still showing after reaching the time limit. Please see the [^Time-limit.png]
+
+*Expected Result:*
+
+ ""Recording"" label should be changed when the limit is reached.
+
+*Additional Information:*
+
+This issue also appears in the Quick Status recording time.","*OS:* Android 12
+
+*Phone Model:* POCO X3 NFC
+
+*UI Version:* MIUI Global 14.0.2.0 Stable",,,,,,,,,,Leads and Reporter only,"21/May/26 12:50 AM;r.israil;Time-limit.png;https://jira.a1qa.com/secure/attachment/2788266/Time-limit.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|ifvxx4:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,,,,,
+"Greetings: ""9:00"" time limit is displayed instead of ""9:59"" when recording audio ",QATC-994342,4000646,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,r.israil,r.israil,21/May/26 12:19 AM,21/May/26 12:19 AM,21/May/26 2:33 AM,,1.0,,Voicemail,,0,,"*Steps:*
+ # Open the Voicemail App
+ # Stay on the GREETINGS tab
+ # Click on the Create new greeting
+ # Click on the microphone button
+ # Observed the time limit
+
+*Actual Result:*
+
+""9:00"" time limit is displayed instead of ""9:59"" when recording audio. Please see the [^Time.png]
+
+*Expected Result:*
+
+Maximum recording time should be displayed as per the design.
+
+*Additional Information:*
+
+This issue also appears in the Quick Status recording time.","*OS:* Android 12
+
+*Phone Model:* POCO X3 NFC
+
+*UI Version:* MIUI Global 14.0.2.0 Stable",,,,,,,,,,Leads and Reporter only,"21/May/26 12:19 AM;r.israil;TIme.png;https://jira.a1qa.com/secure/attachment/2788244/TIme.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|ifvxtk:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,,,,,
+Select a Recepient: Hide some names from the contact list,QATC-994334,4000638,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,r.israil,r.israil,21/May/26 12:00 AM,21/May/26 12:00 AM,21/May/26 2:39 AM,,1.0,,Voicemail,,0,,"*Steps:*
+ # Open the Voicemail App
+ # Stay on the GREETINGS tab
+ # Click on the Create new greeting and create a status
+ # Save the status
+ # Click on the status
+ # Click on the Select a recepient
+ # Observed the contact list
+
+*Actual Result:*
+
+Hide some names from the contact list. Please see the [^Contacts.mp4]
+
+*Expected Result:*
+
+All available contacts should be displayed in the recipient list.","*OS:* Android 12
+
+*Phone Model:* POCO X3 NFC
+
+*UI Version:* MIUI Global 14.0.2.0 Stable",,,,,,,,,,Leads and Reporter only,"21/May/26 12:00 AM;r.israil;Contact.logcat;https://jira.a1qa.com/secure/attachment/2788234/Contact.logcat","21/May/26 12:00 AM;r.israil;Contacts.mp4;https://jira.a1qa.com/secure/attachment/2788233/Contacts.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|ifvxrs:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,,,,,
+Select a group: Same group name displayed multiple times,QATC-994324,4000625,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,r.israil,r.israil,20/May/26 11:37 PM,20/May/26 11:37 PM,21/May/26 2:33 AM,,1.0,,Voicemail,,0,,"*Steps:*
+ # Open the Voicemail App
+ # Stay on the GREETINGS tab
+ # Click on the Create new greeting and create a status
+ # Save the status
+ # Click on the status
+ # Click on the Select a group
+ # Search any group or scroll down
+ # Observed the group name
+
+*Actual Result:*
+
+Same group name displayed multiple times. Please see the [^Group-name.mp4]
+
+*Expected Result:*
+
+The group name should not be displayed multiple times.","*OS:* Android 12
+
+*Phone Model:* POCO X3 NFC
+
+*UI Version:* MIUI Global 14.0.2.0 Stable",,,,,,,,,,Leads and Reporter only,"20/May/26 11:36 PM;r.israil;Group-name.logcat;https://jira.a1qa.com/secure/attachment/2788220/Group-name.logcat","20/May/26 11:36 PM;r.israil;Group-name.mp4;https://jira.a1qa.com/secure/attachment/2788221/Group-name.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|ifvxow:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,,,,,
+"Home: ""GET PERSONAL"" is displayed as the title instead of ""VOICEMAIL""",QATC-994319,4000618,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,r.israil,r.israil,20/May/26 11:22 PM,20/May/26 11:22 PM,21/May/26 2:54 AM,,1.0,,Voicemail,,0,,"*Steps:*
+ # Open the Voicemail App
+ # Observed the Title
+
+*Actual Result:*
+
+""GET PERSONAL"" is displayed as the title instead of ""VOICEMAIL"". Please see the [^Title.png]
+
+*Expected Result:*
+
+The title should be displayed as per the design.","*OS:* Android 12
+
+*Phone Model:* POCO X3 NFC
+
+*UI Version:* MIUI Global 14.0.2.0 Stable",,,,,,,,,,Leads and Reporter only,"20/May/26 11:22 PM;r.israil;Title.png;https://jira.a1qa.com/secure/attachment/2788214/Title.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|ifvxnc:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,,,,,
+Home: Activate Voicemail Service in Settings tooltip is not displayed when the service is off,QATC-994309,4000606,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,r.israil,r.israil,20/May/26 11:12 PM,20/May/26 11:12 PM,21/May/26 2:50 AM,,1.0,,Voicemail,,0,,"*Steps:*
+ # Open the Voicemail App
+ # Click on the three-dot menu
+ # Click on the Settings option
+ # Turn off the Activate Service
+ # Back to the home page
+ # Observed that there is no tooltip displayed
+
+*Actual Result:*
+
+Activate Voicemail Service in Settings tooltip is not displayed when the service is off. Please see the [^tooltip.png]
+
+*Expected Result:*
+
+The tooltip should be displayed as per the design.","*OS:* Android 12
+
+*Phone Model:* POCO X3 NFC
+
+*UI Version:* MIUI Global 14.0.2.0 Stable",,,,,,,,,,Leads and Reporter only,"20/May/26 11:11 PM;r.israil;tooltip.png;https://jira.a1qa.com/secure/attachment/2788200/tooltip.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|ifvxko:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,,,,,
+Home: Trial period expires warning message is not displayed,QATC-994300,4000593,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,r.israil,r.israil,20/May/26 10:55 PM,20/May/26 10:55 PM,21/May/26 2:50 AM,,1.0,,Voicemail,,0,,"*Steps:*
+ # Open the Voicemail App
+ # Observed that there is no warning message displayed
+
+*Actual Result:*
+
+Trial period expires warning message is not displayed. Please see the [^Warning.png]
+
+*Expected Result:*
+
+The warning message should be displayed as per the design.","*OS:* Android 12
+
+*Phone Model:* POCO X3 NFC
+
+*UI Version:* MIUI Global 14.0.2.0 Stable",,,,,,,,,,Leads and Reporter only,"20/May/26 10:53 PM;r.israil;Warning.png;https://jira.a1qa.com/secure/attachment/2788188/Warning.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|ifvxhs:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,,,,,
+"Greetings: ""STOPED"" is displayed instead of ""PAUSED"" after clicking the Pause button",QATC-994288,4000579,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,r.israil,r.israil,20/May/26 10:35 PM,20/May/26 10:35 PM,21/May/26 2:32 AM,,1.0,,Voicemail,,0,,"*Steps:*
+ # Open the Voicemail App
+ # Stay on the GREETINGS tab
+ # Click on the Create new greeting 
+ # Click on the Microphone button
+ # Click on the Pause button
+ # Observed the status text
+
+*Actual Result:*
+
+""STOPED"" is displayed instead of ""PAUSED"" after clicking the Pause button. Please see the [^Stoped.png]
+
+*Expected Result:*
+
+The text should be displayed as per the design.","*OS:* Android 12
+
+*Phone Model:* POCO X3 NFC
+
+*UI Version:* MIUI Global 14.0.2.0 Stable",,,,,,,,,,Leads and Reporter only,"20/May/26 10:34 PM;r.israil;Stoped.png;https://jira.a1qa.com/secure/attachment/2788173/Stoped.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|ifvxeo:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,,,,,
+Greetings: Alignment mismatch in the box after the item is added,QATC-994285,4000575,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,r.israil,r.israil,20/May/26 10:27 PM,20/May/26 10:27 PM,21/May/26 2:32 AM,,1.0,,Voicemail,,0,,"*Steps:*
+ # Open the Voicemail App
+ # Stay on the GREETINGS tab
+ # Click on the Create new greeting and create a status
+ # Save the status
+ # Observed the status alignment
+
+*Actual Result:*
+
+Alignment mismatch in the box after the item is added. Please see the [^Alignment.png]
+
+*Expected Result:*
+
+The created status should be proper align in the box as per the design.","*OS:* Android 12
+
+*Phone Model:* POCO X3 NFC
+
+*UI Version:* MIUI Global 14.0.2.0 Stable",,,,,,,,,,Leads and Reporter only,"20/May/26 10:27 PM;r.israil;Alignment.png;https://jira.a1qa.com/secure/attachment/2788169/Alignment.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|ifvxds:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,,,,,
+Quick Status: The Delete Status button is not working,QATC-994269,4000556,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,r.israil,r.israil,20/May/26 10:06 PM,20/May/26 10:06 PM,21/May/26 2:50 AM,,1.0,,Voicemail,,0,,"*Steps:*
+ # Open the Voicemail App
+ # Click on the QUICK STATUS tab
+ # Click on the Create new status and create a status
+ # Save the status
+ # Now, click on the status
+ # Click on the Delete Status button
+ # Observed the behavior
+
+*Actual Result:*
+
+ The Delete Status button is not working. Please see the [^Delete.mp4]
+
+*Expected Result:*
+
+The created status should be deleted from the list.","*OS:* Android 12
+
+*Phone Model:* POCO X3 NFC
+
+*UI Version:* MIUI Global 14.0.2.0 Stable",,,,,,,,,,Leads and Reporter only,"20/May/26 10:05 PM;r.israil;Delete.logcat;https://jira.a1qa.com/secure/attachment/2788150/Delete.logcat","20/May/26 10:05 PM;r.israil;Delete.mp4;https://jira.a1qa.com/secure/attachment/2788149/Delete.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|ifvx9k:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,,,,,
+Quick Status: The progress bar is not showing when recording audio,QATC-994263,4000546,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,r.israil,r.israil,20/May/26 9:45 PM,20/May/26 9:45 PM,21/May/26 2:42 AM,,1.0,,Voicemail,,0,,"*Steps:*
+ # Open the Voicemail App
+ # Click on the QUICK STATUS tab
+ # Click on Create new status
+ # Click on the microphone button
+ # Observed the progress bar
+
+*Actual Result:*
+
+The progress bar is not showing when recording audio. Please see the [^Progress-bar.mp4]
+
+*Expected Result:*
+
+The progress bar should show as per the design.
+
+*Additional Information:*
+
+This issue also appears when playing audio. And those issues also appear in the Greetings.","*OS:* Android 12
+
+*Phone Model:* POCO X3 NFC
+
+*UI Version:* MIUI Global 14.0.2.0 Stable",,,,,,,,,,Leads and Reporter only,"20/May/26 9:45 PM;r.israil;Progress-bar.logcat;https://jira.a1qa.com/secure/attachment/2788142/Progress-bar.logcat","20/May/26 9:44 PM;r.israil;Progress-bar.mp4;https://jira.a1qa.com/secure/attachment/2788143/Progress-bar.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|ifvx7c:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,,,,,
+Quick Status: The radio button is displayed instead of the On/Off button,QATC-994253,4000535,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,r.israil,r.israil,20/May/26 9:27 PM,20/May/26 9:27 PM,21/May/26 2:42 AM,,1.0,,Voicemail,,0,,"*Steps:*
+ # Open the Voicemail App
+ # Click on the Quick status tab
+ # Add a Status
+ # Observed the behavior
+
+*Actual Result:*
+
+The radio button is displayed instead of the On/Off button. Please see the [^Radio.png]
+
+*Expected Result:*
+
+It should be displayed as per the design file.","*OS:* Android 12
+
+*Phone Model:* POCO X3 NFC
+
+*UI Version:* MIUI Global 14.0.2.0 Stable",,,,,,,,,,Leads and Reporter only,"20/May/26 9:27 PM;r.israil;Radio.png;https://jira.a1qa.com/secure/attachment/2788131/Radio.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|ifvx4w:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,,,,,
+Settings: The payment page is not displayed,QATC-994247,4000524,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,r.israil,r.israil,20/May/26 9:12 PM,20/May/26 9:12 PM,21/May/26 4:48 AM,,1.0,,Voicemail,,0,,"*Steps:*
+ # Open the Voicemail App
+ # Click on the three-dot menu
+ # Click on the Settings option
+ # Click on the Purchase
+ # Observed the behavior
+
+*Actual Result:*
+
+The payment page is not displayed. Please see the [^Payment.mp4]
+
+*Expected Result:*
+
+It should redirect to the payment page.
+
+ ","*OS:* Android 12
+
+*Phone Model:* POCO X3 NFC
+
+*UI Version:* MIUI Global 14.0.2.0 Stable",,,,,,,,,,Leads and Reporter only,"20/May/26 9:11 PM;r.israil;Payment.logcat;https://jira.a1qa.com/secure/attachment/2788121/Payment.logcat","20/May/26 9:08 PM;r.israil;Payment.mp4;https://jira.a1qa.com/secure/attachment/2788122/Payment.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|ifvx2o:",9223372036854775807,,,,,,,,,1-Critical,,,,,,,,,,,,,,,,,,,,,,,,
+"Help: ""How It Works"" instruction is not displayed after navigating to the page",QATC-994126,4000250,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,r.israil,r.israil,20/May/26 1:49 PM,20/May/26 1:49 PM,21/May/26 2:48 AM,,1.0,,Voicemail,,0,,"*Steps:*
+ # Open the Voicemail App
+ # Click on the three-dot menu
+ # Click on the Help option
+ # Observed the page
+
+*Actual Result:*
+
+""How It Works"" instruction is not displayed after navigating to the page. Please see the [^Help.png]
+
+*Expected Result:*
+
+Instructions should be displayed as per the design file.","*OS:* Android 12
+
+*Phone Model:* POCO X3 NFC
+
+*UI Version:* MIUI Global 14.0.2.0 Stable",,,,,,,,,,Leads and Reporter only,"20/May/26 1:17 PM;r.israil;Help.png;https://jira.a1qa.com/secure/attachment/2787877/Help.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|ifvve8:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,,,,,
